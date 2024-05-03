@@ -81,8 +81,8 @@ library(targeted)
 The `ate()` function within the `library(targeted)` package will directly calculate the ATE. If all the code for the data cleaning of the variables was run, then the following code should run without issues to estimate the ATE:
 
 ```language
-atehat <- targeted::ate(health_dummy ~ health_insurance_dummy |  health_insurance_dummy*(White+Black+Other+female_dummy+Unmarried+pov_dummy)|1, 
-                        data=dataraw, binary=FALSE)
+atehat <- targeted::ate(health_dummy ~ health_insurance_dummy |  health_insurance_dummy*(Black+Other+female_dummy+Unmarried+pov_dummy)|1, 
+                        data=data, binary=FALSE)
 ```
 
 ### - Step 3: View the Results
