@@ -1,4 +1,6 @@
 # Estimating ATE Using Regression Adjustment in R Studio
+#### By: Charlize Samuels and Jamila Spears
+
 This repository focuses around how to reproduce the results of the our research paper which focuses on answering the following question: 
 
 *What is the average treatment effect of having health insurance on general health?*
